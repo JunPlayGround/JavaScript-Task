@@ -1,5 +1,5 @@
 // テスト対象のコードファイルを取り込む
-const section1 = require("../section/section1/section1");
+const section1 = require("../section/section1/section1.js");
 const { q1, q2, q3, q4, q5, q6 } = section1;
 
 test("Whether your q1 answer is right.", () => {
