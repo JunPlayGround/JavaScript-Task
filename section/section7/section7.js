@@ -1,9 +1,22 @@
-const character = null;
+const character = {
+    id : 1 ,
+    name : "スライム" ,
+    hp : 50
+};
 
-const addMP = null;
+const addMP = function(a){
+    character.mp=a;
+    return character;
+};
 
-const updateHP = null;
+const updateHP = function(){
+    delete character.mp;
+    character.hp=character.hp-15;
+    return character;
+};
 
-const LookUpName = null;
+const LookUpName = function(){
+    return character.name;
+};
 
 module.exports = { character, addMP, updateHP, LookUpName };

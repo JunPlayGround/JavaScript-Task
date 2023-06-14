@@ -12,10 +12,9 @@ country = "America";
 q4 = `
 
 const japan = {
-    id : 1 ,
-    capital : "東京" ,
-}
-
+    id: 1 ,
+    capital: "東京"
+};
 japan.lang = "日本語";
 
 `;
