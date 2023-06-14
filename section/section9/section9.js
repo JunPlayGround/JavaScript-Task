@@ -15,6 +15,7 @@ const userIdList = function(a) {
     return UID
 };
 
+
 const fixData = function(a) {
     const idList = userIdList(a);
     let dataList=[];
@@ -33,5 +34,6 @@ const fixData = function(a) {
     }
     return dataList;
 };
+
 
 module.exports = { userIdList, fixData };
